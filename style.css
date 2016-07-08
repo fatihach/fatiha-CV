@@ -1,0 +1,121 @@
+body {
+  margin: 15px 0;
+  background-color: #EDEFED;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 14px;
+  font-family: Verdana;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+h3, h2 {
+  text-align: center;
+
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+h3 {
+  color: #fff;
+  background-color:#5532f1;
+  padding: 5px 0 5px;
+  font-style: italic;
+}
+
+a {
+  font-style: italic;
+}
+
+
+.divers {
+  font-size: 16px;
+}
+
+.clearfix {
+  content: "";
+  display:table;
+  clear:both;
+}
+
+li {
+  padding-top: 20px;
+  /*padding-bottom: 15px;*/
+}
+/******************************************************************************/
+
+.nom, .donnees {
+  height: 200px;
+  margin-bottom: 35px;
+
+}
+
+.nom {
+  float:left;
+  width: 350px;
+  text-align: center;
+  margin-right: 20rem;
+  color: #fff;
+  background-color: #5532f1;
+}
+
+.nom h1 {
+  padding-top: 18px;
+}
+
+.donnees {
+  float:right;
+  border: 3px solid #5532f1;
+  padding-right: 18px;
+}
+
+
+/*******************************************************************************/
+
+.comp1 {
+  float: left;
+  width: 45%;
+}
+
+.comp2 {
+  float: right;
+  width: 45%;
+}
+
+/*******************************************************************************/
+
+.dates {
+  float: left;
+  line-height: 2.2;
+  margin-right: 7rem;
+}
+
+.poste {
+  float: right;
+}
+
+/********************************************************************************/
+
+.datesf {
+  float: left;
+  line-height: 2;
+  margin-right: 7rem;
+
+
+}
+
+.etudes {
+  float:right;
+
+}
